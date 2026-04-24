@@ -45,5 +45,26 @@ console.log(score);
 console.log("My age is " + "age")
 let students = "Jorndnyn, zach, asiya me"
 let teacher = "Mrs.Walter"
-console.log("My Class is " + students w+ " and " + teacher)
+console.log("My Class is " + students + " and " + teacher)
 
+
+
+
+
+/* FUNCTIONS:
+Reusable sets of code statements that preform a specific task/process/routine
+*/
+
+
+//console.log is a built-in function we use
+console.log("I just used a function")
+
+// DEFINE (create) your own function 
+function prepareForSleep() {
+    console.log("1. Put on PJ's")
+    console.log("2. Brush teeth")
+    console.log("3. Getting in bed")
+}
+
+//CALL (use) our 
+prepareForSleep();
